@@ -1,6 +1,6 @@
-# Introduction to complex systems, JAVA, MVN AND GIT
+# SPARK WEB 
 > En este taller se realizará los cálculos de desviación estándar y la media de una tabla con n números, por medio de una
-> LinkedList con propia implementación dentro de un proyecto Maven Java, con sus respectivas pruebas.
+> aplicación web con
 > Si quiere saber mas sobre el proyecto, puede leer el [Informe](https://github.com/FelipeRojas15/AREP_TallerMVN1/blob/master/Informe_Taller.pdf).
 
 ## Requerimientos 
@@ -13,7 +13,7 @@ con su respectiva configuracion
 ## Instalación
 > **Clonar el repositorio:** 
 ```sh
-$ https://github.com/FelipeRojas15/AREP_TallerMVN1
+$ https://github.com/FelipeRojas15/AREP-TallerSPARKWEB2
 ```
 > **Compilar el proyecto:**
 ```sh
@@ -21,15 +21,13 @@ $ mvn package
 ```
 > **Ejecutar el programa:** 
 ```sh
-$ java -cp target/tallerLinkedList-1.0-SNAPSHOT.jar edu.escuelaing.arem.app.App
+$ java -cp target/tallerLinkedList-1.0-SNAPSHOT.jar edu.escuelaing.arem.app.sparkWeb.SparkWeb
 ```
-- El programa se ejecutara con el archivo de pruebas data.txt, si se desea ejecutar el otro archivo de pruebas se debe dirigir a:
-
+> **Abrir la aplicacion con heroku:** 
 ```sh
-$ AREP_TallerMVN1/src/main/java/edu/escuelaing/arem/app/App.java
-``` 
-![Resultado de la prueba ](https://i.ibb.co/G7Zt4w3/result-Problem.png)
-- Cambiar el archivo que se esta leyendo por **dataDos.txt** 
+$ https://guarded-dusk-94649.herokuapp.com/
+```
+
 
 > **Ejecutar las pruebas:** 
 ```sh
